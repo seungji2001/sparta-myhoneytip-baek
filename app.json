@@ -17,14 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.myhoneytip.gun",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6230707362700751~6451568561"
       }
     },
+    "android": {
+          "package": "com.myhoneytip.gun",
+          "versionCode": 1,
+          "config": {
+            "googleMobileAdsAppId": "ca-app-pub-6230707362700751~4305515869"
+          }
+  },
     "web": {
       "favicon": "./assets/favicon.png"
     }
