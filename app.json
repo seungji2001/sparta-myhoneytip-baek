@@ -19,17 +19,18 @@
     "ios": {
       "supportsTablet": true,
       "buildNumber": "1.0.0",
-      "bundleIdentifier": "com.myhoneytip.gun",
+      "bundleIdentifier": "com.myhoneytip.seung",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-6230707362700751~6451568561"
       }
     },
     "android": {
-          "package": "com.myhoneytip.gun",
+          "package": "com.myhoneytip.seung",
           "versionCode": 1,
           "config": {
             "googleMobileAdsAppId": "ca-app-pub-6230707362700751~4305515869"
-          }
+          },
+          "permissions": ["ACCESS_FINE_LOCATION","ACCESS_COARSE_LOCATION"]
   },
     "web": {
       "favicon": "./assets/favicon.png"
